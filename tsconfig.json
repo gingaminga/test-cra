@@ -14,7 +14,8 @@
     "resolveJsonModule": true, // 확장자가 .json인 모듈의 import 허용 여부
     "isolatedModules": true, // 모든 파일을 모듈화하여 작성할 것인지에 대한 여부
     "noEmit": true, // Typescript를 단순 타입 확인용으로 사용할지에 대한 여부
-    "jsx": "react-jsx" // JSX 코드를 어떻게 컴파일할지 설정
+    "jsx": "react-jsx", // JSX 코드를 어떻게 컴파일할지 설정
+    "baseUrl": "src" // import 시 기준이 되는 경로 설정
   }, // 컴파일 과정에 관련된 옵션
   "include": ["src"] // Typescript 컴파일 대상에 포함하고 싶은 파일들의 목록
 }
